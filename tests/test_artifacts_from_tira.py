@@ -6,8 +6,7 @@ from pyterrier_alpha.artifact import from_url
 try:
     # this is not yet in the main branch of tira until everything is stable
     # this test requires this branch to be installed:
-    # pip3 install 'git+https://github.com/tira-io/tira.git@pyterrier-artifacts#&subdirectory=python-client'
-    # alternatively, clone the repo at the correct branch and run pip3 install -é .
+    # pip3 install 'https://github.com/tira-io/tira/archive/pyterrier-artifacts.zip#&subdirectory=python-client'
     import tira
     TIRA_CLIENT_INSTALLED = True
 except:
